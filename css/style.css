@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.bas{
+    background-image: url(../img/more.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.beden{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ayaq{
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.basi{
+    width: 93%;
+    height: 66px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 37px;
+    left: 55px;
+    border-radius: 7px;
+}
+
+.bas-sol p{
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(107, 107, 107);
+    margin-left: 25px;
+}
+
+.bas-sag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bas-sag a{
+    margin: 0 30px;
+    font-size: 36px;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+}
+
+.bas-sag a:hover{
+    color: black;
+}
+
+
+.bedeni{
+    display: flex;
+
+    position: absolute;
+    top: 190px;
+    left: 57px;
+    
+}
+
+.beden-sol{
+    width: 775px;
+    height: 365px;
+   
+    position: relative;
+}
+
+.beden-sag{
+    width: 523px;
+    height: 530px;
+    background-color: white;
+    margin-left: 79px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.beden-sol .bb p{
+    color: white;
+    font-size: 73px;
+    font-style: unset;
+    font-weight: 500;
+    margin-left: 5px;
+    text-shadow: 4px 3px 3px black;
+}
+
+.aa p{
+    margin-top: 30px;
+    margin-left: 15px;
+
+    
+    
+}
+
+.aa{
+    position: relative;
+}
+
+.aa::before{
+    content: " ";
+    background: white;
+    width: 2px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    
+}
+
+.aa p{
+    color: white;
+    text-shadow: 4px 3px 3px black;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+.yazi p{
+    color: rgb(71, 70, 70);
+    font-size: 47px;
+    font-style: italic;
+    text-shadow: 2px 1px 4px black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.b2{
+    display: flex;
+    margin-top: 30px;
+}
+
+.b1 p{
+    font-size: 34px;
+    color:rgb(20, 178, 178);
+    margin-left: 23px;
+    margin-top: 25px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.b1 .input1{
+    width: 455px;
+    height: 42px;
+    margin-left: 20px;
+    
+}
+.input1{
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.m1,.m2,.m3{
+    font-size: 34px;
+    color:rgb(20, 178, 178);
+    
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.b4{
+    margin-right: 91px;
+    margin-left: 22px;
+
+}
+
+button{
+    background-color: rgb(5, 144, 144);
+    width: 125px;
+    height: 38px;
+    margin-top: 20px;
+    margin-left: 21px;
+    border-radius: 6px;
+    font-size: 22px;
+    color: white;
+}
+
+.input2{
+    width: 180px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+    
+    
+    .input3{
+        width: 183px;
+        height: 40px;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    
+.b3{
+    margin-top: 27px;
+    margin-left: 21px;
+}
+.input4{
+    width: 455px;
+    height: 42px;  
+    padding-left: 15px; 
+    font-size: 25px;
+}
+
+.ppp2{
+    font-size: 40px;
+    font-style: italic;
+    
+}
+
+.ppp1{
+
+    font-size:40px ;
+    color: rgb(20, 178, 178);
+    font-style: italic;
+    font-weight: bold;
+    
+
+}
+
+.pppp{
+    font-size:40px ;
+    color: rgb(20, 178, 178);
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+
+
+.yazi-1{
+    display: flex;
+    margin: 25px 0;
+    
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img .mmm{
+    width: 350px;
+    height: 520px;
+    box-shadow: 3px -1px 9px;
+    
+    margin: 0 28px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bali{
+    width: 350px;
+    height: 250px;
+    background-image: url(../img/BALI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.pramida{
+    width: 350px;
+    height: 250px;
+    background-image: url(../img/pramida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.paris{
+    width: 350px;
+    height: 250px;
+    background-image: url(../img/IMG_20160202_125514.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+   
+}
+.mmm .ff{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 46px;
+}
+
+.havaiii{
+    text-align: center;
+    color:  rgb(5, 144, 144);
+    font-size: 30px;
+    font-style: italic;
+    margin: 15px 0;
+    font-weight: bold;
+
+}
+
+.pad{
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+/* Общий стиль для звезд */
+.star {
+    width: 20px; /* Ширина звезды */
+    height: 20px; /* Высота звезды */
+    background: yellow; /* Цвет звезды */
+    clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 38.2%, 69.1% 61.8%, 80.9% 100%, 50% 76.4%, 19.1% 100%, 30.9% 61.8%, 0% 38.2%, 38.2% 38.2%);
+    display: inline-block;
+    margin: 5px; /* Отступ между звездами */
+}
+
+/* Общий стиль для контейнера звезд */
+.stars {
+    margin: 15px 0;
+    text-align: center; /* Выравнивание по центру */
+}
+
+.but{
+    background-color: rgb(5, 144, 144);
+    width: 125px;
+    height: 38px;
+    border-radius: 6px;
+    font-size: 22px;
+    color: white;
+    border: non;
+    position: absolute;
+    bottom: -30px;
+    left: 93px;
+}
+
+.box1{
+    width: 300px;
+    border: solid green;
+    height: 60%
+}
+
+.box2,.box3{
+    width:230px ;
+    height: 60%;
+    border:  solid green;
+}
+
+.box4{
+    width: 250px;
+    height: 60%;
+    border: solid green;
+}
+
+.maa{
+    margin: 15px 15px;
+
+}
+
+.box1 div img{
+    width: 35px;
+    height: 35px;
+    margin: 8px 15px;
+}
+
+.f1,.f2{
+    color: white;
+}
+
+.box1 div{
+    margin-left: 15px;
+}
